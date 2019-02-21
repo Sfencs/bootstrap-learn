@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-cmn-Hans">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>提示框</title>
+  </head>
+  <body>
+  <h1>提示框</h1>
+   <div class="tab-content py-3">
+    <div id="east" class="tab-pane active">
+        <p>2018年东部冠军是
+            <span class="font-weight-bold text-success" title="绿凯东部第一" data-toggle="tooltip" data-placement="top">凯尔特人</span>还是
+            <span class="font-weight-bold text-danger" title="老詹没输" data-toggle="tooltip" data-placement="bottom">骑士</span>？不会是猛龙吧？</p>
+    </div>
+    <div id="west" class="tab-pane">
+        <p>西部冠军肯定是勇士了，不过火箭今天也很不错。</p>
+    </div>
+</div>
+...
+<script>
+    $(function(){
+        'use strict';
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
